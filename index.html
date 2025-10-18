@@ -1,0 +1,160 @@
+<!DOCTYPE html> 
+<!-- Declara el tipo de documento, en este caso HTML5 -->
+<html lang="es">
+    <!-- Define el idioma principal de la página como español -->
+    <head>
+        <!-- Sección de cabecera: contiene metadatos, enlaces a estilos, scripts, etc. -->
+        <meta charset="utf-8" />
+        <!-- Especifica la codificación de caracteres (UTF-8 permite caracteres especiales y acentos) -->
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <!-- Hace que el diseño sea responsive ajustando el ancho al del dispositivo -->
+        <title>Wiki - Misty Waifu</title>
+        <!-- Título que aparece en la pestaña del navegador -->
+        <!-- Tipografías -->
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+        <!-- Importa las fuentes Cinzel y Lora desde Google Fonts -->
+        <link rel="icon" type="image/png" href="images/icono-blood.jpg">
+        <!-- Define el ícono (favicon) que se muestra en la pestaña del navegador -->
+        <!-- Font Awesome (para íconos de redes) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <!-- Importa la librería de íconos Font Awesome desde CDN -->
+        <!-- Tu CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Enlaza el archivo CSS externo donde se define el estilo de la página -->
+        <!-- GSAP -->
+        <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+        <!-- Importa la librería GSAP para animaciones -->
+        <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+        <!-- Extensión de GSAP para activar animaciones al hacer scroll -->
+    </head>
+    <body>
+        <!-- Contenido visible de la página -->
+        <!-- logo -->
+        <a href="#inicio" class="logo">Misty</a>
+        <!-- Enlace con clase "logo" que lleva al inicio de la página -->
+        <!-- INTRO -->
+        <section class="panel intro" id="inicio">
+            <!-- Sección de introducción con clase "panel" y "intro", identificada como 'inicio' -->
+            <div class="overlay">
+                <!-- Capa de superposición, normalmente usada para efectos visuales (como oscurecer el fondo) -->
+                <h1 class="intro-title">Misty Waifu</h1>
+                <!-- Título principal dentro de la sección de introducción -->
+                <div class="intro-box glow">
+                    <!-- Contenedor del texto introductorio con efecto visual (probablemente brillo) -->
+                    <p class="intro-desc">
+                        <!-- Párrafo con la descripción de la streamer -->
+                        Soy streamer de Twitch, mi contenido se enfoca en Soulsborne, Soulslike, juegos de acción, de terror, RPGs y de vez en cuando shooters. Aquí encontrarás mis partidas, videos destacados y mis redes sociales para que no te pierdas nada.<br><br>
+                        <!-- Salto de línea doble para separar bloques de texto -->
+                        PRAISE THE SUN<br> 
+                        <!-- Frase icónica separada por un salto -->
+                        Business: yourmistywaifu@gmail.com
+                        <!-- Dirección de contacto -->
+                    </p>
+                    <div class="social-icons">
+                        <!-- Contenedor para los íconos de redes sociales -->
+                        <a href="https://www.twitch.tv/mistywaifu" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                        <!-- Enlace a Twitch, con ícono de Font Awesome y apertura en nueva pestaña -->
+                        <a href="https://x.com/Mistywaifu" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <!-- Enlace a perfil de X (Twitter) -->
+                        <a href="https://www.instagram.com/misty_waifu_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <!-- Enlace a Instagram -->
+                        <a href="https://discord.com/invite/wcu8HxB" target="_blank"><i class="fab fa-discord"></i></a>
+                        <!-- Enlace al servidor de Discord -->
+                        <a href="https://www.tiktok.com/@mistywaifuttv" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <!-- Enlace a TikTok -->
+                        <a href="https://www.youtube.com/@mistywaifu" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <!-- Enlace al canal de YouTube -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECCIONES -->
+        <!-- Cada panel representa un juego diferente -->
+        <section class="panel" id="panel1">
+            <!-- Panel dedicado al juego Bloodborne -->
+            <div class="content-box glow">
+                <h1>Bloodborne</h1>
+                <p>En la ciudad gótica de Yharnam, asolada por una plaga que convierte a sus habitantes en bestias, juegas como un cazador que explora un mundo oscuro y lovecraftiano.Buscas la Sangre Pálida para curar una enfermedad, enfrentando horrores cósmicos y descubriendo secretos de una iglesia corrupta. El combate es rápido, agresivo y centrado en reflejos, con un enfoque en la transformación y la locura.</p>
+            </div>
+        </section>
+        <section class="panel" id="panel2">
+            <!-- Panel dedicado a Dark Souls I -->
+            <div class="content-box glow">
+                <h1>Dark Souls I</h1>
+                <p>Eres un No Muerto en Lordran, un mundo medieval en decadencia. Tu misión es cumplir una profecía para decidir el destino de la Era del Fuego, enfrentando dioses y demonios. El juego destaca por su dificultad, exploración no lineal y narrativa críptica, con un combate metódico basado en resistencia y estrategia.</p>
+            </div>
+        </section>
+        <section class="panel" id="panel3">
+            <!-- Panel dedicado a Dark Souls II -->
+            <div class="content-box glow">
+                <h1>Dark Souls II</h1>
+                <p>Como un No Muerto maldito, buscas una cura para la maldición en Drangleic, un reino fragmentado. La historia gira en torno a la pérdida de la humanidad y el ciclo de reinos caídos. Con un mundo más amplio pero menos interconectado, ofrece mayor variedad de builds y un combate más lento, aunque con mecánicas como la pérdida gradual de salud al morir.</p>
+            </div>
+        </section>
+        <section class="panel" id="panel4">
+            <!-- Panel dedicado a Dark Souls III -->
+            <div class="content-box glow">
+                <h1>Dark Souls III</h1>
+                <p>Eres un Ceniza, un no muerto que despierta para reunir las cenizas de los Señores de la Ceniza y decidir el destino del Fuego en un mundo al borde del colapso. En un reino sombrío y apocalíptico, enfrentas enemigos implacables y jefes épicos. El combate es rápido, refinado, y la narrativa entrelaza temas de ciclos y decadencia, con un diseño más lineal que sus predecesores.</p>
+            </div>
+        </section>
+        <section class="panel" id="panel5">
+            <!-- Panel dedicado a Elden Ring -->
+            <div class="content-box glow">
+                <h1>Elden Ring</h1>
+                <p>Como el Sinluz, exploras las Tierras Intermedias, un vasto mundo abierto creado por FromSoftware y George R.R. Martin. Tu objetivo es recolectar fragmentos del Círculo de Elden y convertirte en el Señor del Círculo. Con un combate versátil, exploración libre y una mitología rica, combina la dificultad de Dark Souls con un enfoque no lineal y una escala épica.</p>
+            </div>
+        </section>
+        <section class="panel" id="panel6">
+            <!-- Panel dedicado a Elden Ring: Nightreign -->
+            <div class="content-box glow">
+                <h1>Elden Ring: Nightreign</h1>
+                <p>Ambientado en las Tierras Intermedias, este próximo título multijugador cooperativo pone a los jugadores como los Sinluz en un mundo dinámico y en constante cambio. Enfrentas horrores nocturnos y jefes colosales en equipos, con un enfoque en la supervivencia y la colaboración. Mantiene el combate y la atmósfera de Elden Ring, pero con un énfasis en la experiencia compartida y eventos dinámicos.</p>
+            </div>
+        </section>
+        <section class="panel" id="panel7">
+            <!-- Panel dedicado a Silent Hill 2 -->
+            <div class="content-box glow">
+                <h1>Silent Hill 2</h1>
+                <p>James Sunderland llega al pueblo brumoso de Silent Hill tras recibir una carta de su difunta esposa, Mary, pidiéndole que se reúna con ella. Explora un entorno psicológico y opresivo, enfrentando monstruos que reflejan sus traumas internos. La historia se centra en la culpa, el duelo y la redención, con un combate minimalista y una narrativa profundamente emocional.</p>
+            </div>
+        </section>
+        <section class="panel" id="panel8">
+            <!-- Panel dedicado a Silent Hill f -->
+            <div class="panel-content">
+                <div class="content-box glow">
+                    <h1>Silent Hill f</h1>
+                    <p>
+                        Ambientado en un pueblo rural japonés en la década de 1960, sigue a una joven atrapada en un mundo de niebla y horror, enfrentando criaturas grotescas y un entorno cambiante.
+                        La historia explora temas de aislamiento y misterio, con un enfoque en la atmósfera inquietante y un estilo visual único,
+                        manteniendo el terror psicológico característico de la serie.
+                    </p>
+                </div>
+                <!-- 🔻 Sección de videos (debajo del recuadro, fuera de él) -->
+                <div class="videos-section">
+                    <!-- Contenedor general de los videos relacionados -->
+                    <h2 class="videos-title">Videos</h2>
+                    <!-- Título de la sección de videos -->
+                    <div class="videos-grid">
+                        <!-- Contenedor en cuadrícula que agrupa los videos -->
+                        <a href="https://youtu.be/Ira6o_ldkDM?si=MwUO0VrHJHHvdt4S" target="_blank">
+                            <img src="images/silentf1.jpg" alt="Silent Hill f Gameplay 1">
+                            <!-- Miniatura del primer video, con enlace a YouTube -->
+                        </a>
+                        <a href="https://youtu.be/pZkRUmQLMKM?si=BAeVEZnXlkHeE_7m" target="_blank">
+                            <img src="images/silentf2.jpg" alt="Silent Hill f Gameplay 2">
+                            <!-- Miniatura del segundo video -->
+                        </a>
+                        <a href="https://youtu.be/-r4dW6jz_fk?si=cV_tcRg37fKoKdsI" target="_blank">
+                            <img src="images/silentf3.jpg" alt="Silent Hill f Cinemática">
+                            <!-- Miniatura del tercer video -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+        <!-- Enlace al archivo JavaScript externo que controla animaciones e interacciones -->
+    </body>
+</html>
+<!-- Fin del documento HTML -->
