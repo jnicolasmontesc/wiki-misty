@@ -168,7 +168,7 @@ html {
     /* Tamaño grande para destacar */
     margin-bottom: 15px;
     /* Espacio inferior */
-    color: #ff2a2a;
+    color: #a10000;
     /* Rojo brillante */
 }
 
@@ -208,7 +208,7 @@ html {
     /* Espaciado entre letras */
     margin-bottom: 20px;
     /* Separación inferior */
-    color: #ff0000;
+    color: #a10000;
     /* Rojo intenso */
     text-shadow:
         0 0 8px rgba(255, 0, 0, 0.8),
@@ -286,9 +286,9 @@ html {
 
 /* Efecto hover de los íconos sociales */
 .social-icons a:hover {
-    color: #f14e4e;
+    color: #c93f3f;
     /* Cambia el color a rojo claro */
-    text-shadow: 0 0 12px #ff0000, 0 0 24px #ff0000;
+    text-shadow: 0 0 12px #a10000, 0 0 24px #a10000;
     /* Brillo rojo */
     transform: scale(1.2);
     /* Aumenta ligeramente el tamaño */
