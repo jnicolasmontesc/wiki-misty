@@ -83,15 +83,15 @@ html {
 }
 
 #panel3 {
-    background-image: url('images/sekiro.jpg');
+    background-image: url('images/elden-ring-night.jpg');
 }
 
 #panel4 {
-    background-image: url('images/horrotgm.png');
+    background-image: url('images/sekiro.jpg');
 }
 
 #panel5 {
-    background-image: url('images/FPS.png');
+    background-image: url('images/horrotgm.png');
 }
 
 #panel6 {
@@ -99,11 +99,7 @@ html {
 }
 
 #panel7 {
-    background-image: url('images/silent-hill2.jpg');
-}
-
-#panel8 {
-    background-image: url('images/silent-hillf.jpg');
+    background-image: url('images/FPS.png');
 }
 
 /* === RECUADROS CON DESENFOQUE Y RESPLANDOR ROJO === */
@@ -411,32 +407,6 @@ html {
     /* Brillo adicional */
 }
 
-/* === PANEL 8: AJUSTES ESPECIALES === */
-#panel8 .panel-content {
-    display: flex;
-    /* Usa flexbox para disposición vertical */
-    flex-direction: column;
-    /* Alinea los elementos en columna */
-    align-items: center;
-    /* Centra horizontalmente */
-    justify-content: flex-start;
-    /* Comienza desde la parte superior */
-    gap: 40px;
-    /* Espacio entre recuadro y videos */
-    margin-top: 60px;
-    /* Separación desde el inicio del panel */
-}
-
-/* Ajusta altura del panel 8 para incluir videos */
-#panel8 {
-    height: auto;
-    /* Permite que el alto crezca según contenido */
-    min-height: 100vh;
-    /* Asegura ocupar al menos una pantalla completa */
-    padding-bottom: 60px;
-    /* Espacio inferior adicional */
-}
-
 
 #panel1 .panel-content {
     display: flex;
@@ -541,6 +511,30 @@ html {
     /* Espacio inferior adicional */
 }
 
+#panel5 .panel-content {
+    display: flex;
+    /* Usa flexbox para disposición vertical */
+    flex-direction: column;
+    /* Alinea los elementos en columna */
+    align-items: center;
+    /* Centra horizontalmente */
+    justify-content: flex-start;
+    /* Comienza desde la parte superior */
+    gap: 40px;
+    /* Espacio entre recuadro y videos */
+    margin-top: 60px;
+    /* Separación desde el inicio del panel */
+}
+
+/* Ajusta altura del panel 8 para incluir videos */
+#panel5 {
+    height: auto;
+    /* Permite que el alto crezca según contenido */
+    min-height: 100vh;
+    /* Asegura ocupar al menos una pantalla completa */
+    padding-bottom: 60px;
+    /* Espacio inferior adicional */
+}
 
 #panel6 .panel-content {
     display: flex;
@@ -556,6 +550,19 @@ html {
     margin-top: 60px;
     /* Separación desde el inicio del panel */
 }
+
+/* Ajusta altura del panel 8 para incluir videos */
+#panel6 {
+    height: auto;
+    /* Permite que el alto crezca según contenido */
+    min-height: 100vh;
+    /* Asegura ocupar al menos una pantalla completa */
+    padding-bottom: 60px;
+    /* Espacio inferior adicional */
+}
+
+
+
 
 /* Ajusta altura del panel 8 para incluir videos */
 #6 {
