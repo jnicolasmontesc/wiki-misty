@@ -75,27 +75,27 @@ html {
 }
 
 #panel1 {
-    background-image: url('images/bloodborne-2.jpeg');
+    background-image: url('images/fromsoftware.png');
 }
 
 #panel2 {
-    background-image: url('images/dark-souls.png');
-}
-
-#panel3 {
-    background-image: url('images/dark-souls-2.jpg');
-}
-
-#panel4 {
-    background-image: url('images/dark-souls-3.jpeg');
-}
-
-#panel5 {
     background-image: url('images/elden-ring.jpg');
 }
 
+#panel3 {
+    background-image: url('images/sekiro.jpg');
+}
+
+#panel4 {
+    background-image: url('images/horrotgm.png');
+}
+
+#panel5 {
+    background-image: url('images/FPS.png');
+}
+
 #panel6 {
-    background-image: url('images/elden-ring-night.jpg');
+    background-image: url('images/silent-hill2.jpg');
 }
 
 #panel7 {
@@ -109,6 +109,7 @@ html {
 /* === RECUADROS CON DESENFOQUE Y RESPLANDOR ROJO === */
 .content-box,
 .intro-box {
+
     background: rgba(0, 0, 0, 0.55);
     /* Fondo semitransparente negro */
     backdrop-filter: blur(8px);
@@ -119,7 +120,7 @@ html {
     /* Bordes redondeados */
     text-align: center;
     /* Centra el texto dentro del recuadro */
-    max-width: 841px;
+    max-width: 668px;
     /* Limita el ancho máximo del recuadro */
     transition: all 0.6s ease;
     /* Transición suave en todos los cambios */
@@ -196,10 +197,17 @@ html {
     /* Centra verticalmente */
     height: 100%;
     /* Ocupa toda la altura del panel */
+
+    left: 5px;
+    top: 5px;
 }
 
 /* === EFECTO VISUAL DEL TÍTULO PRINCIPAL === */
 .intro-title {
+
+    margin-top: -102px;
+    /* Mueve hacia arriba */
+
     font-family: 'Cinzel', serif;
     /* Fuente elegante */
     font-size: 16.2rem;
@@ -305,7 +313,7 @@ html {
 .videos-title {
     font-size: 1.8rem;
     /* Tamaño del título */
-    color: #ff0000;
+    color: #a10000;
     /* Rojo brillante */
     margin-bottom: 25px;
     /* Separación inferior */
@@ -325,6 +333,7 @@ html {
     padding: 0 40px;
     /* Espaciado lateral para margen interno */
 }
+
 
 /* === MINIATURAS DE VIDEOS === */
 .videos-grid a {
@@ -426,4 +435,163 @@ html {
     /* Asegura ocupar al menos una pantalla completa */
     padding-bottom: 60px;
     /* Espacio inferior adicional */
+}
+
+
+#panel1 .panel-content {
+    display: flex;
+    /* Usa flexbox para disposición vertical */
+    flex-direction: column;
+    /* Alinea los elementos en columna */
+    align-items: center;
+    /* Centra horizontalmente */
+    justify-content: flex-start;
+    /* Comienza desde la parte superior */
+    gap: 40px;
+    /* Espacio entre recuadro y videos */
+    margin-top: 60px;
+    /* Separación desde el inicio del panel */
+}
+
+/* Ajusta altura del panel 8 para incluir videos */
+#panel1 {
+    height: auto;
+    /* Permite que el alto crezca según contenido */
+    min-height: 100vh;
+    /* Asegura ocupar al menos una pantalla completa */
+    padding-bottom: 60px;
+    /* Espacio inferior adicional */
+}
+
+
+/* === PANEL 8: AJUSTES ESPECIALES === */
+#panel2 .panel-content {
+    display: flex;
+    /* Usa flexbox para disposición vertical */
+    flex-direction: column;
+    /* Alinea los elementos en columna */
+    align-items: center;
+    /* Centra horizontalmente */
+    justify-content: flex-start;
+    /* Comienza desde la parte superior */
+    gap: 40px;
+    /* Espacio entre recuadro y videos */
+    margin-top: 60px;
+    /* Separación desde el inicio del panel */
+}
+
+/* Ajusta altura del panel 8 para incluir videos */
+#panel2 {
+    height: auto;
+    /* Permite que el alto crezca según contenido */
+    min-height: 100vh;
+    /* Asegura ocupar al menos una pantalla completa */
+    padding-bottom: 60px;
+    /* Espacio inferior adicional */
+}
+
+#panel3 .panel-content {
+    display: flex;
+    /* Usa flexbox para disposición vertical */
+    flex-direction: column;
+    /* Alinea los elementos en columna */
+    align-items: center;
+    /* Centra horizontalmente */
+    justify-content: flex-start;
+    /* Comienza desde la parte superior */
+    gap: 40px;
+    /* Espacio entre recuadro y videos */
+    margin-top: 60px;
+    /* Separación desde el inicio del panel */
+}
+
+/* Ajusta altura del panel 8 para incluir videos */
+#panel3 {
+    height: auto;
+    /* Permite que el alto crezca según contenido */
+    min-height: 100vh;
+    /* Asegura ocupar al menos una pantalla completa */
+    padding-bottom: 60px;
+    /* Espacio inferior adicional */
+}
+
+
+#panel4 .panel-content {
+    display: flex;
+    /* Usa flexbox para disposición vertical */
+    flex-direction: column;
+    /* Alinea los elementos en columna */
+    align-items: center;
+    /* Centra horizontalmente */
+    justify-content: flex-start;
+    /* Comienza desde la parte superior */
+    gap: 40px;
+    /* Espacio entre recuadro y videos */
+    margin-top: 60px;
+    /* Separación desde el inicio del panel */
+}
+
+/* Ajusta altura del panel 8 para incluir videos */
+#panel4 {
+    height: auto;
+    /* Permite que el alto crezca según contenido */
+    min-height: 100vh;
+    /* Asegura ocupar al menos una pantalla completa */
+    padding-bottom: 60px;
+    /* Espacio inferior adicional */
+}
+
+
+#panel6 .panel-content {
+    display: flex;
+    /* Usa flexbox para disposición vertical */
+    flex-direction: column;
+    /* Alinea los elementos en columna */
+    align-items: center;
+    /* Centra horizontalmente */
+    justify-content: flex-start;
+    /* Comienza desde la parte superior */
+    gap: 40px;
+    /* Espacio entre recuadro y videos */
+    margin-top: 60px;
+    /* Separación desde el inicio del panel */
+}
+
+/* Ajusta altura del panel 8 para incluir videos */
+#6 {
+    height: auto;
+    /* Permite que el alto crezca según contenido */
+    min-height: 100vh;
+    /* Asegura ocupar al menos una pantalla completa */
+    padding-bottom: 60px;
+    /* Espacio inferior adicional */
+}
+
+
+/* === CONTENEDOR PARA LOS DOS RECUADROS DE INTRODUCCIÓN === */
+.intro-boxes-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* === TÍTULO DEL NUEVO RECUADRO === */
+.intro-subtitle {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    color: #a10000;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+
+/* === RESPONSIVO PARA CELULARES === */
+@media (max-width: 900px) {
+    .intro-boxes-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
